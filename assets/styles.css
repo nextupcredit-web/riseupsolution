@@ -168,12 +168,13 @@ body::after {
 
 .rail-vertical-label {
   font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.2em;
+  font-size: 10px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--muted-2);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  white-space: nowrap;
 }
 
 /* ============================================================
